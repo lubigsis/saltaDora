@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#ffffcc;
+}
+
+.contenedor-game{
+    width: 800px;
+    height: 200px;
+    border: 2px solid #000;
+    border-bottom: 3px solid #000;
+    margin: auto;
+    margin-top: 150px;
+    background: linear-gradient(#4d4dff , #fff 80%);
+    
+}
+
+.dora{
+    width: 50px;
+    height: 50px;
+    background-image: url(dora.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 145px;
+    /*animation: jump 0.3s linear;*/
+}
+
+
+
+@keyframes jump{
+    0%{
+        top: 149px;
+    }
+    30%{
+        top: 130px;
+    }
+    50%{
+        top: 80px;
+    }
+    80%{
+        top: 130px;
+    }
+    100%{
+        top: 149px;
+    }
+}
+
+.cactus{
+    width: 42px;
+    height: 45px;
+    position: relative;
+    top: 102px;
+    left: 580px;
+    background-image: url(cactus.png);
+    background-size: 42px 40px;
+    /*animation: cactusBlock 3s infinite linear;*/
+}
+
+@keyframes cactusBlock{
+    0%{
+        left: 580px;
+    }
+    100%{
+        left: -20%;
+    }
+}
+
+.cloud1{
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -176px;
+    left: 700px;
+    background-image: url(cloud1.png);
+    background-size: 80px 40px;
+    animation: movimientoNubes-1 100s infinite linear;
+}
+
+@keyframes movimientoNubes-1{
+    0%{
+        left: 700px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+
+.cloud2{
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: -200px;
+    left: 500px;
+    background-image: url(cloud2.png);
+    background-size: 80px 40px;
+    animation: movimientoNubes-2 120s infinite linear;
+}
+
+
+
+@keyframes movimientoNubes-2{
+    0%{
+        left: 700px;
+    }
+    100%{
+        left: -20px;
+    
+    }
+}
+
+
+.vasija{
+    width: 23px;
+    height: 30px;
+    position: relative;
+    top: 70px;
+    left: 700px;
+    background-image: url(vasija.jpg);
+    background-size: 23px 30px;
+    /*animation: vasijaBlock 20s infinite linear;*/
+}
+
+@keyframes vasijaBlock{
+    0%{
+        left: 580px;
+    }
+    100%{
+        left: -20%;
+    }
+}
+
+.dino{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 23px;
+    left: 400px;
+    background-image: url(craneo-dino.png);
+    background-size: 50px 50px;
+    /*animation: dinoBlock 20s infinite linear;*/
+}
+
+@keyframes dinoBlock{
+    0%{
+        left: 580px;
+    }
+    100%{
+        left: -20%;
+    }
+}
