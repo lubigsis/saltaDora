@@ -25,23 +25,25 @@ body{
     background-size: 50px 50px;
     position: relative;
     top: 145px;
-    /*animation: jump 0.3s linear;*/
+    
 }
 
+.saltar{
+    animation: saltar 0.3s linear;
+}
 
-
-@keyframes jump{
+@keyframes saltar{
     0%{
         top: 149px;
     }
     30%{
-        top: 130px;
+        top: 140px;
     }
     50%{
-        top: 80px;
+        top: 90px;
     }
     80%{
-        top: 130px;
+        top: 140px;
     }
     100%{
         top: 149px;
@@ -49,14 +51,14 @@ body{
 }
 
 .cactus{
-    width: 42px;
+    width: 37px;
     height: 45px;
     position: relative;
     top: 102px;
     left: 580px;
     background-image: url(cactus.png);
     background-size: 42px 40px;
-    /*animation: cactusBlock 3s infinite linear;*/
+    animation: cactusBlock 2s infinite linear;
 }
 
 @keyframes cactusBlock{
@@ -92,7 +94,7 @@ body{
     width: 80px;
     height: 40px;
     position: relative;
-    top: -200px;
+    top: -70px;
     left: 500px;
     background-image: url(cloud2.png);
     background-size: 80px 40px;
@@ -114,13 +116,13 @@ body{
 
 .vasija{
     width: 23px;
-    height: 30px;
+    height: 28px;
     position: relative;
-    top: 70px;
+    top: 117px;
     left: 700px;
     background-image: url(vasija.jpg);
     background-size: 23px 30px;
-    /*animation: vasijaBlock 20s infinite linear;*/
+    animation: vasijaBlock 2s infinite linear;
 }
 
 @keyframes vasijaBlock{
