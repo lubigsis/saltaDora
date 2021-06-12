@@ -13,3 +13,21 @@ Falta:
 
 
 ..............................................................................................................................................
+
+12/06/2021:
+
+. Dejé de obstáculo sólo la vasija
+. Hice saltar a Dora con JS, hice funciones.
+. Detecté colisiones con Js.
+
+Falta:
+. Mejorar diseño de sitio.
+. Ver cómo hacer saltar a Dora desde un celular/tablet
+. Hacer que Dora camine.
+. Agregar otro tipo de obstáculos (cactus, fósil dinosaurio).
+. Cambiar el alert.
+. Poner un cronómetro.
+. Responsive design.
+
+...............................................................................................................................................
+
