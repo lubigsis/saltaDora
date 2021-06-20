@@ -31,3 +31,14 @@ Falta:
 
 ...............................................................................................................................................
 
+19/06/2021:
+
+.Identifiqué las colisiones del cactus con Js.
+. Fondo negro del body para no hacer visible el cactus cuando se sale de la pantalla del juego.
+. Agregué un botón de Iniciar Juego.
+
+Falta:
+. Aplicar Js al botón de Iniciar Juego.
+. Agregar botón para que el jugador presione el mismo en vez del teclado.
+. Agregar tablero de score y tiempo restante.
+. Ventana de alert, ver si se puede editar.
