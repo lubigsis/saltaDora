@@ -1,5 +1,6 @@
 let doraSalta= document.getElementById("dora-js");
 let vasijaArq= document.getElementById("vasija-js");
+let cactusCata= document.getElementById("cactus-js");
 
 
 /*Función para que agregue y saque la clase saltar. De lo contrario hay que ir actualizando la página
@@ -47,3 +48,24 @@ let vive = setInterval(function(){
 
 },10);
 
+//choque con cactus
+
+let vive2 = setInterval(function(){
+
+  //posición actual de Dora en Y
+  let doraTop2= parseInt(window.getComputedStyle(doraSalta).getPropertyValue("top"));
+
+  //posición actual de la vasija en X
+  let cactusLeft= parseInt(window.getComputedStyle(cactusCata).getPropertyValue("left"));
+
+
+  //detectar el choque
+
+  if(cactusLeft <50 && cactusLeft >0 && doraTop2 >= 145){
+
+      //hay choque con el cactus
+      alert("Game Over");
+  }
+
+
+},10);
