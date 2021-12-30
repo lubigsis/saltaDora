@@ -61,7 +61,7 @@ let vive2 = setInterval(function(){
 
   //detectar el choque
 
-  if(cactusLeft <50 && cactusLeft >0 && doraTop2 >= 145){
+  if(cactusLeft <50 && cactusLeft >0 && doraTop2 >= 140){
 
       //hay choque con el cactus
       alert("Game Over");
