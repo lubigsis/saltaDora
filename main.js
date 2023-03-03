@@ -1,18 +1,16 @@
+/*------------------------------------------------------------referencias---------------------*/
 let doraSalta= document.getElementById("dora-js");
 let vasijaArq= document.getElementById("vasija-js");
 let cactusCata= document.getElementById("cactus-js");
 
 
 /*Función para que agregue y saque la clase saltar. De lo contrario hay que ir actualizando la página
-
 Esto va a ser ejecutado solo si la clase 'saltar' no está*/
 
-function saltar(){
-  
+function saltar(){  
   if(doraSalta.classList != "saltar"){
     doraSalta.classList.add("saltar");
-
-
+  //-------------------------------------------------tiempo----------------
     setTimeout(function (){
         doraSalta.classList.remove("saltar");
     }, 300);
