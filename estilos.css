@@ -10,6 +10,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: monospace;
+    z-index: 10;   /*ver si con esto el cactus se oculta al salir del contenedor del juego*/
 }
 
 .contenedor-total h1{
@@ -22,6 +23,7 @@ body{
     font-weight: bold;
 
 }
+
 
 .contenedor-total{
    display: flex;
@@ -41,6 +43,7 @@ body{
     margin-top: 90px;
     background: linear-gradient(#4d4dff , #fff 80%);
     min-width: 200px;
+    
 }
 
 
@@ -95,49 +98,27 @@ body{
 }
 
 .cactus{
-    width: 33px;
-    height: 43px;
+    width: 20px;
+    height: 40px;
     position: relative;
-    top: 106px;
-    left: 450px;
-    background-image: url(cactus1.png);
-    background-size: 42px 40px;
-    /*animation: cactusBlock 2s infinite linear;*/
+    top: 108px;
+    left: 550px;
+    background-image: url(cactus-nuevo.png);
+    background-size: 20px 40px;
+    animation: cactusBlock 2s infinite linear;
+  
 }
 
 @keyframes cactusBlock{
     0%{
-        left: 580px;
+        left: 550px;
     }
     100%{
         left: -20%;
     }
 }
 
-/*
-.vasija{
-    width: 23px;
-    height: 28px;
-    position: relative;
-    top: 117px;
-    left: 700px;
-    background-image: url(vasija.jpg);
-    background-size: 23px 30px;
-    z-index: 10;
-    animation: vasijaBlock 2s infinite linear;
-}
-
-@keyframes vasijaBlock{
-    0%{
-        left: 580px;
-    }
-    100%{
-        left: -20%;
-    }
-}
-*/
-
-/*-------------------------------------------------------------------animaciones de nubes*/
+/*-------------------------------------------------------------------animaciones de nubes-----------------*/
 .cloud2{
     width: 80px;
     height: 40px;
@@ -148,8 +129,6 @@ body{
     background-size: 80px 40px;
     animation: movimientoNubes-2 120s infinite linear;
 }
-
-
 
 @keyframes movimientoNubes-2{
     0%{
